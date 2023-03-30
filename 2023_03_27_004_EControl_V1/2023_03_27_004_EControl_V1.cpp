@@ -2,14 +2,14 @@
 // Rodrigo Farías Andrés
 // En este programa haremos repaso del tema pasado In/Out - Consultorio médico
 // Agregaremos la syntaxis de las estructuras de control
-//
+// 3 bool, 2 int, 2 float, 1 char, 1 string
 
 #include <iostream>
 #include <locale.h>
 #include <string>
 
 //using namespace std para evitar repetir escribir std
-using namespace std;
+
 int main()
 {
     setlocale(LC_ALL, "es_MX.UTF-8");
@@ -20,12 +20,16 @@ int main()
     bool d_cabeza = false;
     bool d_estómago = false;
     bool p_nutrición = false;
+    float kilos = 0;
+    int malestar = 0;
+    char nutrición[100] = "  ";
+    float IMC;
 
     std::cout << "Hola, en este programa descubriremos cuál es tu IMC. Empecemos con unas simples preguntas." << std::endl;
-    std::cout << "¿Nombre(s)?" << std::endl;
+    std::cout << "Nombre completo." << std::endl;
     getline(std::cin, nombre);
     //El getline ya debe de tener dentro el cin
-    std::cout << "Mucho gusto, " << nombre << std::endl;
+    std::cout << "Mucho gusto, " << nombre << "." << std::endl;
 
     
     std::cout << "¿Cuántos años tienes?" << std::endl;
@@ -39,16 +43,15 @@ int main()
     std::cin >> d_estómago;
     std::cout << "¿Tiene algún problema con su nutrición? 1=Sí 0=No" << std::endl;
     std::cin >> p_nutrición;
-    std::cout << "Cuántos kilogramos pesas?" << std::endl;
-
-
-
-
-
-
-
-
-    
+    std::cout << "¿Cuántos kilogramos pesas?" << std::endl;
+    std::cin >> kilos;
+    std::cout << "Del 1 al 5, ¿qué tan mal te sientes?" << std::endl;
+    std::cin >> malestar;
+    std::cout << "¿Consideras que tienes una buena nutrición?" << std::endl;
+    std::cin >> nutrición;
+    std::cout << "Entendido." << std::endl;
+    IMC = (kilos / (altura * altura));
+    std::cout <<  "Gracias a la información compartida tenemos que su IMC es de: " << IMC << "." << std::endl;
 
     
 }
