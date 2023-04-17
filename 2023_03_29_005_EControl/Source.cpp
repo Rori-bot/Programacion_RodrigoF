@@ -11,11 +11,11 @@
 
 int main()
 {
-	setlocale(LC_ALL, "es_MX.UTF-8");
+	
 	//Estructura de control 1
 	//IF
 	//Syntaxis
-
+	setlocale(LC_ALL, "es_MX.UTF-8");
 	
 
 	int edad = 0;
