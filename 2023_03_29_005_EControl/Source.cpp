@@ -11,12 +11,12 @@
 
 int main()
 {
-	
+
 	//Estructura de control 1
 	//IF
 	//Syntaxis
 	setlocale(LC_ALL, "es_MX.UTF-8");
-	
+
 
 	int edad = 0;
 	float temperatura = 0;
@@ -59,10 +59,10 @@ int main()
 	case 2:
 		std::cout << "No confíes en ti, confía en el mí que confía en ti." << std::endl;
 		break;
-	case 3: 
+	case 3:
 		std::cout << "No me recuerdes a mí, recuerda mis enseñanzas." << std::endl;
 		break;
-	case 4: 
+	case 4:
 		std::cout << "Me enamoré de ti en un bazar." << std::endl;
 		break;
 	default:
@@ -70,16 +70,5 @@ int main()
 		break;
 
 	}
-
-
-
-
-
-
-
-
-
-
-
 
 }
