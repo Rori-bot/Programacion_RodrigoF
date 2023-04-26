@@ -1,0 +1,6 @@
+﻿  2023_04_24_009_ValorAbsoluto.cpp
+C:\Users\2093\Desktop\Rodris\Programacion_RodrigoF\2023_04_24_009_ValorAbsoluto\2023_04_24_009_ValorAbsoluto.cpp(43,18): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\2093\Desktop\Rodris\Programacion_RodrigoF\2023_04_24_009_ValorAbsoluto\2023_04_24_009_ValorAbsoluto.cpp(48,18): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\2093\Desktop\Rodris\Programacion_RodrigoF\2023_04_24_009_ValorAbsoluto\2023_04_24_009_ValorAbsoluto.cpp(53,18): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\2093\Desktop\Rodris\Programacion_RodrigoF\2023_04_24_009_ValorAbsoluto\2023_04_24_009_ValorAbsoluto.cpp(58,18): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+  2023_04_24_009_ValorAbsoluto.vcxproj -> C:\Users\2093\Desktop\Rodris\Programacion_RodrigoF\2023_04_24_009_ValorAbsoluto\Debug\2023_04_24_009_ValorAbsoluto.exe
