@@ -41,25 +41,27 @@ int main()
     //Lo de contar
 
     int num = 0;
+    bool teclas = true;
 
-    while (tecla == true)
+    while (teclas == true)
     {
         num = 0;
 
         while (aux == true) //Mientras que la evaluación sea verdadera se ejecutara lo que este dentro
         {
-            system("pause");
+            
 
             num = num + 1;
-            std::cout << "\nMoriste y perdiste una vida. Tienes: " << num << ". Presiona otra tecla.\n";
+            std::cout << num << std::endl;
 
-            if (num <= 0)
+            if (num >= 100)
             {
                 aux = false;
             }
         }
-        std::cout << "¿Quieres continuar? 1.Sí 0.No\n";
-        std::cin >> tecla;
+        
+        std::cin >> teclas;
         aux = true;
     }
-}
+    std::cout << "Gracias por usar mi programa :)";
+} 
