@@ -2,7 +2,6 @@
 //Veremos estrcturas de control
 //Decisiones
 //Bucles
-//
 
 #include <iostream>
 #include <locale.h>
@@ -11,12 +10,10 @@
 
 int main()
 {
-
 	//Estructura de control 1
 	//IF
 	//Syntaxis
 	setlocale(LC_ALL, "es_MX.UTF-8");
-
 
 	int edad = 0;
 	float temperatura = 0;
@@ -28,7 +25,7 @@ int main()
 		std::cout << "Bienvenido al club de los adultos." << std::endl;
 
 	}
-	if (edad < 18)
+	else
 	{
 		std::cout << "Sáquese al club de los pequeñines." << std::endl;
 	}

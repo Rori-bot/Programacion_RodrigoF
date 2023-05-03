@@ -10,27 +10,33 @@ int main()
     setlocale(LC_ALL, "es_MX.UTF-8");
 
     std::string nombre = "Rodrigo";
+    std::string contra = "lelelala123";
     
 
 
-    std::cout << "Bienvenido seas :D \n Identifícate dándome tu nombre, porfavor. \n";
+    std::cout << "Bienvenido seas :D \nIdentifícate dándome tu nombre, porfavor. \n";
     std::cin >> nombre;
      
-    if ("Rodrigo")
+    if (nombre == "Rodrigo")
     {
-        std::cout << "Mucho gusto tenerte de vuelta, Rodrigo.";
+        std::cout << "Mucho gusto tenerte de vuelta, Rodrigo.\n";
+        std::cout << "Ahora ingresa tu contraseña, porfavor.\n";
+        std::cin >> contra;
+
+        if (contra == "lelelala123")
+        {
+            std::cout << "¡Perfecto! Iniciemos el juego :D";
+        }
+        else
+        {
+            std::cout << "Se me hace que te estás intentando colar :/\n";
+        }
     }
     else
     {
-        std::cout << "¿Quién sos vos?";
+        std::cout << "¿Quién sos vos?\n";
     }
-
-
-
-
-
-
-
+    
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar

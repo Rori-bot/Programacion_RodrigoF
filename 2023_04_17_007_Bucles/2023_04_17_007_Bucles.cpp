@@ -1,20 +1,28 @@
-// 2023_04_17_007_Bucles.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
-//
+// Rodrigo Farías Andrés
+// En este programa conoceremos qué número es mayor.
 
 #include <iostream>
+#include <locale.h>
+#include <string>
 
 int main()
 {
-    //Ciclo infinito... hasta que se deje de cumplir la condición...
-    std::cout << "Hello World!\n";
+    setlocale(LC_ALL, "es_MX.UTF-8");
+    int num1 = 0;
+    int num2 = 0; 
+
+    std::cout << "Hola buenas. Este programa te ayudará a saber qué número es mayor.\nPorfavor ingresa el primer número:\n";
+    std::cin >> num1;
+    std::cout << "Gracias, ahora ingresa el segundo número:\n";
+    std::cin >> num2;
+
+    if (num1 > num2)
+    {
+        std::cout << "Según nuestros cálculos te podemos asegurar que " << num1 << " es mayor a " << num2 << ".\nPor lo tanto " << num2 << " es menor a " << num1 << ".\n";
+    }
+    else
+    {
+        std::cout << "Según nuestros cálculos te podemos asegurar que " << num2 << " es mayor a " << num1 << ".\nPor lo tanto " << num1 << " es menor a " << num2 << ".\n";
+    }
+    std::cout << "Gracias por usar mi programa :D\n";
 }
-
-// Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
-// Depurar programa: F5 o menú Depurar > Iniciar depuración
-
-// Sugerencias para primeros pasos: 1. Use la ventana del Explorador de soluciones para agregar y administrar archivos
-//   2. Use la ventana de Team Explorer para conectar con el control de código fuente
-//   3. Use la ventana de salida para ver la salida de compilación y otros mensajes
-//   4. Use la ventana Lista de errores para ver los errores
-//   5. Vaya a Proyecto > Agregar nuevo elemento para crear nuevos archivos de código, o a Proyecto > Agregar elemento existente para agregar archivos de código existentes al proyecto
-//   6. En el futuro, para volver a abrir este proyecto, vaya a Archivo > Abrir > Proyecto y seleccione el archivo .sln

@@ -1,4 +1,0 @@
-﻿  2023_03_15_002_HolaMundo_Variables_862_Rodrigo_Farias_Andres.cpp
-C:\Users\2093\Desktop\Rodris\2023_03_15_002_HolaMundo_Variables_862_Rodrigo_Farias_Andres\2023_03_15_002_HolaMundo_Variables_862_Rodrigo_Farias_Andres.cpp(28,17): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\2093\Desktop\Rodris\2023_03_15_002_HolaMundo_Variables_862_Rodrigo_Farias_Andres\2023_03_15_002_HolaMundo_Variables_862_Rodrigo_Farias_Andres.cpp(12,4): warning C4102: 'std': etiqueta sin referencia
-  2023_03_15_002_HolaMundo_Variables_862_Rodrigo_Farias_Andres.vcxproj -> C:\Users\2093\Desktop\Rodris\2023_03_15_002_HolaMundo_Variables_862_Rodrigo_Farias_Andres\Debug\2023_03_15_002_HolaMundo_Variables_862_Rodrigo_Farias_Andres.exe
