@@ -1,0 +1,3 @@
+﻿  2023_05_17_017_Matriz.cpp
+C:\Users\2093\Desktop\Rodris\Programacion_RodrigoF\2023_05_17_017_Matriz\2023_05_17_017_Matriz.cpp(23,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  2023_05_17_017_Matriz.vcxproj -> C:\Users\2093\Desktop\Rodris\Programacion_RodrigoF\2023_05_17_017_Matriz\Debug\2023_05_17_017_Matriz.exe
