@@ -1,3 +1,3 @@
 ﻿  2023_05_22_018_Punteros.cpp
-C:\Users\2093\Desktop\Rodris\Programacion_RodrigoF\2023_05_22_018_Punteros\2023_05_22_018_Punteros.cpp(35,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\2093\Desktop\Rodris\Programacion_RodrigoF\2023_05_22_018_Punteros\2023_05_22_018_Punteros.cpp(16,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
   2023_05_22_018_Punteros.vcxproj -> C:\Users\2093\Desktop\Rodris\Programacion_RodrigoF\2023_05_22_018_Punteros\Debug\2023_05_22_018_Punteros.exe

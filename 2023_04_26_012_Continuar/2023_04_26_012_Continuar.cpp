@@ -33,7 +33,7 @@ int main()
             aux = false;
         }
      } 
-        std::cout << "¿Quieres continuar? 1.Sí 0.No\n";
+        std::cout << "¿Quieres continuar? 1.Sis 0.Non\n";
         std::cin >> tecla;
         aux = true;
     }
