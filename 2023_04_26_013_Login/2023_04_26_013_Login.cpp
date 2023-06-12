@@ -9,7 +9,7 @@ int main()
     std::string name;
     std::string nameU = "Rodrigo";
     std::string contra;
-    std::string contraU = "1234";
+    std::string contraU = "wewewawa";
 
     while (aux)//Mientras que la evaluación sea verdadera se ejecutara lo que esta dentro
     {
